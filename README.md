@@ -2,6 +2,7 @@
 
 ```bash
 composer install
+php artisan key:generate
 ```
 
 Open `/nl/foo`
