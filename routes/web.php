@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::localized(function () {
-    Route::get('foo', function () {
+    Route::get('foo/{wat?}', function () {
         return view('index');
     });
 });
